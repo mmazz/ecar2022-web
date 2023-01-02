@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<!-- notice details -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex">
+          <div class="text-center mr-4">
+            <div class="p-4 bg-primary text-white">
+              <span class="h2 d-block">{{ .PublishDate.Format "06"}}</span> {{ .PublishDate.Format "JAN, 2006"}}
+            </div>
+          </div>
+          <!-- notice content -->
+          <div class="content">
+            {{ .Content }}
+            {{ with .Params.Download_link }} <a href="{{ . | absURL }}" class="btn btn-primary">{{ i18n "download" }}</a>
+            {{ end }}
+          </div>
+        </div>
+
+      <!-- teacher -->
+        <h2 class="mb-3">{{ i18n "teacher" }}</h2>
+        {{ range where site.RegularPages "Title" (.Params.Teacher| title) }}
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <div class="media mb-2 mb-sm-0 align-items-center">
+            <img class="mr-2 img-fluid teacher-thumb-sm" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+            <div class="media-body">
+              <h4 class="mt-0"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+              {{ .Params.Course }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <!-- teacher -->
+
+      </div>
+    </div>
+</section>
+<!-- /notice details -->
+
+{{ end }}
