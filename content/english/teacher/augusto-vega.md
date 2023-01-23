@@ -8,47 +8,25 @@ description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 # teacher portrait
 image: "images/teachers/vega.png"
 # course
-course: "Photography"
+course: "Efficient & Resilient Systems"
 # biography
-bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae."
+bio: "Augusto Vega is a Research Staff Member within the Efficient & Resilient Systems group at IBM T. J. Watson Research Center. He has been involved in research and development work in the areas of highly-reliable power-efficient embedded designs, cognitive systems and mobile computing. He is a driver and promoter of the swarm intelligence (a.k.a. cloud-back mobile cognition) paradigm with potential application to autonomous/connected vehicles, drones, wearable devices, mobile health monitoring and cyber-physical systems, among others. He has several pending/issued patents and published papers, and has served on conference technical program committees in the area of highly-reliable power-efficient systems. Augusto Vega holds a Ph.D. degree on Computer Architecture from Polytechnic University of Catalonia (UPC), Spain, and a M.Sc. degree on Computer Architecture, Networks and Systems from the same university."
+
+short_bio: "Research Staff Member within the Efficient & Resilient Systems group at IBM T. J. Watson Research Center. "
 # interest
-interest: ["Computer Networking","Computer Security","Human Computer Interfacing"]
+interest: ["highly-reliable power-efficient embedded designs","cognitive systems"," mobile computing"]
 # contact info
 contact:
   # contact item loop
-  - name : "clarkmalik@email.com"
+  - name : "ajvega@us.ibm.com"
     icon : "ti-email" # icon pack : https://themify.me/themify-icons
-    link : "mailto:clarkmalik@email.com"
+    link : "mailto:ajvega@us.ibm.com"
 
   # contact item loop
-  - name : "+12 034 5876"
-    icon : "ti-mobile" # icon pack : https://themify.me/themify-icons
-    link : "tel:+120345876"
+  - name : "augusto-javier-vega"
+    icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
+    link : "https://www.linkedin.com/in/augusto-javier-vega/"
 
-  # contact item loop
-  - name : "Clark Malik"
-    icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
-    link : "#"
-
-  # contact item loop
-  - name : "Clark Malik"
-    icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
-    link : "#"
-
-  # contact item loop
-  - name : "Clark Malik"
-    icon : "ti-skype" # icon pack : https://themify.me/themify-icons
-    link : "#"
-
-  # contact item loop
-  - name : "clarkmalik.com"
-    icon : "ti-world" # icon pack : https://themify.me/themify-icons
-    link : "#"
-
-  # contact item loop
-  - name : "1313 Boulevard Cremazie,Quebec"
-    icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
-    link : "#"
 
 # type
 type: "teacher"

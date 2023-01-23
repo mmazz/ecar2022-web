@@ -87,35 +87,12 @@ course:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Click to Join the Advance Workshop"
-  title : "Training In Advannce Networking"
+  subtitle : ""
+  title : "Click to join our courses"
   button:
     enable : true
     label : "join now"
     link : "contact/"
-
-
-########################### funfacts ############################
-funfacts:
-  enable : true
-  funfact_item:
-    # funfact item loop
-    - name : "TEACHERS"
-      count : "60"
-
-    # funfact item loop
-    - name : "COURSES"
-      count : "50"
-
-    # funfact item loop
-    - name : "STUDENTS"
-      count : "1000"
-
-    # funfact item loop
-    - name : "SATISFIED CLIENT"
-      count : "1400"
-
-# funfact is for about page
 
 
 

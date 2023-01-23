@@ -4,10 +4,7 @@
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <p>{{ .Params.Course }}</p>
     <ul class="list-inline">
-      {{ range .Params.Contact }}
-      <li class="list-inline-item"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
-      </li>
-      {{ end }}
+        <p class="mb-5">{{ .Params.Short_bio | markdownify }}</p>
     </ul>
   </div>
 </div>

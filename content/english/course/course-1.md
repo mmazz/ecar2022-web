@@ -27,11 +27,11 @@ apply_url : "#"
 # type
 type: "course"
 # courses
-course1: "newsmachnow"
+course1: "Computer fundamentals"
 
-course2: "ezzatti"
+course2: "GPU computing"
 
-course3: "meneses"
+course3: "Task parallelism"
 ---
 
 

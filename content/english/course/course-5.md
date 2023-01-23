@@ -24,9 +24,13 @@ fee : "Free"
 apply_url : "#"
 # type
 type: "course"
-course1: "Geier"
-course2: "Dorsch"
-course3: "Dabin"
+
+course1: "Operation of a private Cloud based on OpenStack"
+
+course2: "HPC containers"
+
+course3: "RESTful API for HPC"
+
 ---
 
 

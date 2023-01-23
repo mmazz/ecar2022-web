@@ -24,9 +24,13 @@ fee : "Free"
 apply_url : "#"
 # type
 type: "course"
-course1: "Kovac"
-course2: "Vega"
-course3: "Noguera"
+
+course1: "Architectures for image and video compression acceleration"
+course2: "Agile Design of Programmable Systems-On-Chip: Application to Connected Autonomous Vehicles"
+
+course3: "Development of accelerators for adaptive computing platforms"
+
+
 ---
 
 

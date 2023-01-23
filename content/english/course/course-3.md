@@ -23,9 +23,10 @@ fee : "Free"
 apply_url : "#"
 # type
 type: "course"
-course1: "Rivas"
 
-course2: "Gobbert"
+course1: "Cloud Computing"
+
+course2: "Interactive high performance computing and artificial intelligence with Jupyter"
 
 ---
 

@@ -24,11 +24,12 @@ fee : "Free"
 apply_url : "#"
 # type
 type: "course"
-course1: "Klasky"
+course1: "Fundamentals of the ADIOS Toolkit"
 
-course2: "Podhorszki"
+course2: "Visualization"
 
-course3: "Pugmire"
+course3: "Data reduction"
+
 ---
 
 

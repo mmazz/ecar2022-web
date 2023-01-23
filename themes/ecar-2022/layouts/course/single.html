@@ -66,7 +66,7 @@
       <!-- course -->
       <div class="col-12">
           <h3 class="mb-3">{{ i18n "courses" }}</h3>
-          {{ range where site.RegularPages "Title" (.Params.Course1| title) }}
+          {{ range where site.RegularPages "Title" .Params.Course1 }}
         <div class="d-flex justify-content-between align-items-center flex-wrap">
             <div class="text-center mr-4">
                 <div class="p-4 bg-primary text-white">
@@ -85,22 +85,14 @@
               {{ .Params.Course1 }}
             </div>
           </div>
-          <div class="social-link">
-            <h6 class="d-none d-sm-block text-right">{{ i18n "contact_info" }}</h6>
-            <ul class="list-inline">
-              {{ range .Params.Contact }}
-              <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-              {{ end }}
-            </ul>
-          </div>
-        </div>
+                 </div>
         {{ end }}
         <div class="border-bottom border-primary mt-4"></div>
       </div>
       <!-- course -->
       <!-- course -->
       <div class="col-12">
-          {{ range where site.RegularPages "Title" (.Params.Course2| title) }}
+          {{ range where site.RegularPages "Title" .Params.Course2 }}
         <div class="d-flex justify-content-between align-items-center flex-wrap">
             <div class="text-center mr-4">
                 <div class="p-4 bg-primary text-white">
@@ -119,14 +111,6 @@
               {{ .Params.Course2 }}
             </div>
           </div>
-          <div class="social-link">
-            <h6 class="d-none d-sm-block text-right">{{ i18n "contact_info" }}</h6>
-            <ul class="list-inline">
-              {{ range .Params.Contact }}
-              <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-              {{ end }}
-            </ul>
-          </div>
         </div>
         {{ end }}
         <div class="border-bottom border-primary mt-4"></div>
@@ -134,7 +118,7 @@
       <!-- course -->
       <!-- course -->
       <div class="col-12">
-          {{ range where site.RegularPages "Title" (.Params.Course3| title) }}
+          {{ range where site.RegularPages "Title" .Params.Course3 }}
         <div class="d-flex justify-content-between align-items-center flex-wrap">
             <div class="text-center mr-4">
                 <div class="p-4 bg-primary text-white">
@@ -152,14 +136,6 @@
               <h4 class="mt-0"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
               {{ .Params.Course3 }}
             </div>
-          </div>
-          <div class="social-link">
-            <h6 class="d-none d-sm-block text-right">{{ i18n "contact_info" }}</h6>
-            <ul class="list-inline">
-              {{ range .Params.Contact }}
-              <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-              {{ end }}
-            </ul>
           </div>
         </div>
         {{ end }}

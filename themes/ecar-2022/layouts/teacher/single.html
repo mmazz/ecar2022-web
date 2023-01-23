@@ -30,9 +30,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 content">
-        {{ .Content }}
-      </div>
+
     </div>
 
     <div class="row">
@@ -42,7 +40,7 @@
       <!-- course item -->
       {{ range where site.RegularPages "Params.teacher" .Title }}
       <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "course"}}
+        {{ .Render "class"}}
       </div>
       {{ end }}
     </div>
